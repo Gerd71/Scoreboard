@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="ladies_data" version="1.3.0" audacityversion="2.2.2" sel0="0.4838198823" sel1="0.4838198823" vpos="48" h="0.0000000000" zoom="95.0767045455" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + Millisekunden" frequencyformat="Hz" bandwidthformat="Oktaven">
+	<tags>
+		<tag name="Software" value="Encoded with cleaner"/>
+	</tags>
+	<wavetrack name="applaus" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="633600">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808315.au" len="262144" min="-0.902798" max="1.005164" rms="0.157419"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0808245.au" len="262144" min="-0.790166" max="0.919945" rms="0.102362"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e08085c4.au" len="109312" min="-0.69252" max="0.886057" rms="0.043902"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="applaus" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="633600">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808e6d.au" len="262144" min="-0.902798" max="1.005164" rms="0.157419"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0808f93.au" len="262144" min="-0.790166" max="0.919945" rms="0.102362"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0808700.au" len="109312" min="-0.69252" max="0.886057" rms="0.043902"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Audiospur" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0"/>
+	<wavetrack name="Audiospur" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0"/>
+</project>
